@@ -27,6 +27,9 @@
     <ClInclude Include="BlockShutdown.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlockShutdown.cpp">
@@ -35,6 +38,9 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BlockShutdown.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Version.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
